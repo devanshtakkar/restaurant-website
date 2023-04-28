@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="content/images/logo.jpg">
+    <title>Final Project: Restaurant</title>
+    <script
+      src="https://kit.fontawesome.com/6bced2046d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="content/js/script.js" defer></script>
+    <link rel="stylesheet" href="content/css/style.css" />
+  </head>
+  <body>
+    <header class="hp-header-bg">
+      <nav id="desktop-nav-bar" class="max-width-wrapper">
+        <div class="nav-logo-and-title">
+          <img
+            src="content/images/logo.jpg"
+            width="45"
+            height="45"
+            alt="site logo"
+          />
+          <p class="nav-title">Restaurant</p>
+        </div>
+        <div>
+          <ul class="desktop-nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="pages/menu.html">Menu</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/references.html">References</a></li>
+          </ul>
+        </div>
+        <a href="tel:6725585944" class="nav-phone-num">
+          <p>(672) 558-5944</p>
+        </a>
+      </nav>
+      <nav id="mobile-nav-bar">
+        <div class="nav-logo-and-title">
+          <img
+            src="content/images/logo.jpg"
+            width="45"
+            height="45"
+            alt="site logo"
+          />
+          <p class="nav-title">Restaurant</p>
+        </div>
+        <div id="modal-open-btn">
+          <img
+            src="content/images/Hamburger_icon.svg.png"
+            width="35"
+            alt="menu icon"
+            class="hamburger-menu"
+          />
+        </div>
+      </nav>
+      <div class="nav-modal" id="nav-modal">
+        <button id="close-menu-button">
+          <i class="fa-solid fa-xmark"></i> Close
+        </button>
+        <ul class="nav-modal-items">
+          <li>
+            <img src="content/images/logo.jpg" alt="logo" width="45" />
+            <p class="nav-modal-brand">Restaurant</p>
+          </li>
+          <li><a href="">Home</a></li>
+          <li><a href="pages/menu.html">Menu</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="pages/references.html">References</a></li>
+          <li class="nav-modal-icons">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+            <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
+          </li>
+          <li>
+            <a href="tel:6725585944" class="nav-phone-num">
+              (672) 558-5944
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-content-wrapper max-width-wrapper">
+        <h1 class="hp-site-title">Life's Too Short For Boring Food</h1>
+        <p class="tagline">
+          Indulge in a culinary journey that delights all your senses - only at
+          our restaurant
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="max-width-wrapper basic-info-grid">
+        <div>
+          <i class="fa-regular fa-clock fa-2xl" aria-hidden="true"></i>
+          <h5 class="block-heading-text">Work Hours</h5>
+          <p>Mon - Sun / 12 am - 12 pm</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-book-open fa-2xl" aria-hidden="true"></i>
+          <h5 class="block-heading-text">Book a Table</h5>
+          <a href="tel:6725585944">(672) 558 5944</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-bell-concierge fa-2xl" aria-hidden="true"></i>
+          <h5 class="block-heading-text">Best Menu</h5>
+          <p>Taste the difference</p>
+        </div>
+      </section>
+      <section class="max-width-wrapper hp-order-section">
+        <div class="hp-image-stack">
+          <img src="content/images/egg-dish-home-page.jpg" alt="eggs" >
+          <img src="content/images/hp-pasta.jpg" alt="pasta" class="hp-pasta" >
+        </div>
+        <div>
+          <h2>The Best Place To Eat Is Where The Chef Loves To Cook</h2>
+          <p>
+            Food isn't just a job to our cooks, it's a form of art. We take
+            pride in every ingredient, every technique, every flavor we bring to
+            the table. From the early morning hours to the late nights, we pour
+            our hearts into every dish we prepare, ensuring that every bite is a
+            moment of pure pleasure. So come, dine with us and experience the
+            joy of cooking that we bring to every plate.
+          </p>
+          <div class="order-button-container">
+            <div class="order-button">
+              <i
+                class="fa-solid fa-bag-shopping fa-xl"
+                id="bag-icon"
+                aria-hidden="true"
+                aria-label="take away button"
+              ></i>
+              <p>Take away</p>
+            </div>
+            <div class="order-button">
+              <i
+                id="truck-icon"
+                class="fa-solid fa-truck fa-xl"
+                aria-label="home delivery button"
+                aria-hidden="true"
+              ></i>
+              <p>Home delivery</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chef-section">
+        <div class="max-width-wrapper">
+          <h2>Meet Our Best Chefs</h2>
+          <p>
+            From the first bite to the last, you'll savor the artistry and skill
+            of our culinary team, as they transform fresh ingredients into
+            delectable works of art that are sure to leave you craving more.
+          </p>
+        </div>
+      </section>
+      <section class="chef-rating-section">
+        <div class="chef-rating">
+          <h5 class="block-heading-text mt-0">Adam Banks</h5>
+          <p>Executive Chef</p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-regular fa-star" aria-label="hidden"></i>
+          </div>
+        </div>
+        <div class="chef-rating">
+          <h5 class="block-heading-text mt-0">Jordon Miller</h5>
+          <p>Code Chef</p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+          </div>
+        </div>
+        <div class="chef-rating">
+          <h5 class="block-heading-text mt-0">Emma Brewer</h5>
+          <p>Pastry Chef</p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-solid fa-star" aria-label="hidden"></i>
+            <i class="fa-regular fa-star" aria-label="hidden"></i>
+            <i class="fa-regular fa-star" aria-label="hidden"></i>
+          </div>
+        </div>
+      </section>
+      <section class="hp-best-offer-sectin max-width-wrapper">
+        <h2>Today's Best Offers</h2>
+        <div class="hp-best-offer-outer-grid">
+          <div class="hp-best-offer-inner-grid">
+            <div class="offer-1 bg-overlay offer-block-padding">
+              <p class="hp-offer-price">$25</p>
+            </div>
+            <div class="offer-block-desc">
+              <h2>Chicken Wings</h2>
+              <p>Crispy fried chicken wings tossed in spicy Buffalo sauce.</p>
+            </div>
+            <div class="offer-block-desc">
+              <h2>Chicken Breast</h2>
+              <p>
+                Tender chicken breast marinated in a blend of herbs and spices.
+              </p>
+            </div>
+            <div class="offer-2 bg-overlay offer-block-padding">
+              <p class="hp-offer-price">$20</p>
+            </div>
+          </div>
+          <div class="hp-best-offer-inner-grid">
+            <div class="offer-3 bg-overlay offer-block-padding">
+              <p class="hp-offer-price">$7</p>
+            </div>
+            <div class="offer-block-desc">
+              <h2>Mojito</h2>
+              <p>
+                Refreshing blend of rum, fresh mint, lime juice, and simple
+                syrup.
+              </p>
+            </div>
+            <div class="offer-block-desc">
+              <h2>Greek Salad</h2>
+              <p>
+                Crisp lettuce, juicy tomatoes, cucumber, red onion, and kalamata
+                olives.
+              </p>
+            </div>
+            <div class="offer-4 bg-overlay offer-block-padding">
+              <p class="hp-offer-price">$10</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hp-menu-list-section max-width-wrapper">
+        <div>
+          <div class="hp-menu-list-item">
+            <h4>Salmon fillett</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$10</p>
+          </div>
+          <p class="menu-item-disc">
+            Fresh salmon fillet seasoned with herbs and spices, grilled to
+            perfection
+          </p>
+
+          <div class="hp-menu-list-item">
+            <h4>Creamy fish pie</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$15</p>
+          </div>
+          <p class="menu-item-disc">
+            A comforting mix of salmon, cod, and prawns in a creamy white sauce.
+          </p>
+
+          <div class="hp-menu-list-item">
+            <h4>Filet of sea bass</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$25</p>
+          </div>
+          <p class="menu-item-disc">
+            Tender fillet of sea bass with a side of sautéed vegetables and a
+            lemon garlic butter sauce.
+          </p>
+
+          <div class="hp-menu-list-item">
+            <h4>Traditional fish and chips</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$25</p>
+          </div>
+          <p class="menu-item-disc">
+            Fresh cod fillet coated in a crispy beer batter, served with a side
+            of thick-cut fries and tartar sauce.
+          </p>
+        </div>
+        <div>
+          <div class="hp-menu-list-item">
+            <h4>Beaf burger</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$25</p>
+          </div>
+          <p class="menu-item-disc">
+            Juicy beef patty cooked to your liking and served on a fresh bun
+            with lettuce, tomato, onion, and your choice of cheese.
+          </p>
+
+          <div class="hp-menu-list-item">
+            <h4>Rib eye steak</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$15</p>
+          </div>
+          <p class="menu-item-disc">
+            Juicy and tender rib eye steak, served with a side of garlic mashed
+            potatoes and sautéed spinach.
+          </p>
+
+          <div class="hp-menu-list-item">
+            <h4>Fried chicken dumpling</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$25</p>
+          </div>
+          <p class="menu-item-disc">
+            Tender dumplings filled with seasoned chicken and fried to a crispy
+            golden brown.
+          </p>
+
+          <div class="hp-menu-list-item">
+            <h4>Roasted chicken breast</h4>
+            <div class="list-item-dashed-line"></div>
+            <p class="list-item-price">$25</p>
+          </div>
+          <p class="menu-item-disc">
+            Tender and juicy chicken breast rubbed with a blend of herbs and
+            spices, then roasted to perfection.
+          </p>
+        </div>
+      </section>
+      <section class="hp-aura-section">
+        <div class="max-width-wrapper">
+          <h2>Join us for an unforgettable dining experience</h2>
+          <p>
+            Whether you're looking for a romantic evening out or a fun night
+            with friends, our restaurant offers the perfect ambiance for any
+            occasion.
+          </p>
+        </div>
+      </section>
+      <section class="hp-customer-review-section max-width-wrapper">
+        <div class="hp-customer-review">
+          <p>
+            Every dish we ordered was beautifully presented and bursting with
+            flavor. I especially loved the Roasted chicken breast, which was
+            perfectly cooked and seasoned to perfection. And the desserts were
+            simply divine!
+          </p>
+        </div>
+        <div class="hp-customer-review-img">
+          <div>
+            <div class="secondary-col-block">
+              <i
+                class="fa-solid fa-quote-right fa-3x"
+                aria-hidden="true"
+                style="color: rgb(255, 183, 0)"
+              ></i>
+              <h5>Beatrice Evans</h5>
+              <p>Guest</p>
+            </div>
+          </div>
+          <img
+            src="content/images/hp-women.jpg"
+            class="hp-women"
+            alt="women eating food"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper max-width-wrapper">
+        <div class="ft-first-div">
+          <img src="content/images/logo.jpg" alt="logo" width="70" />
+          <p class="footer-title">Restaurant</p>
+          <p>
+            At our restaurant, we believe that dining is more than just eating.
+            It's about savoring each moment and creating memories with friends
+            and loved ones.
+          </p>
+        </div>
+        <div>
+          <p>Opening Hours</p>
+          <p>Mon - Sun / 12 am - 12pm</p>
+        </div>
+        <div>
+          <a href="tel:6725585944">Phone: (672) 324-7023</a>
+          <a href="mailto:dtakkar00@mylangara.ca">dtakkar00@mylangara.ca</a>
+        </div>
+        <div>
+          <p>304 North Cardinal St.</p>
+          <p>Somewhere, ON Earth 02124</p>
+        </div>
+        <div>
+          <p>
+            This websites's design inspiration was taken from a wordpress's
+            starter theme template Blocksy make by creativethemes.
+            <a href="https://demo.creativethemes.com/blocksy/restaurant/"
+              >Link to source</a
+            >
+          </p>
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright © 2023 - Devansh Takkar for CPSC 1030</p>
+        </div>
+        <div class="footer-icons">
+          <a href="">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

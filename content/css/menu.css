@@ -1,0 +1,175 @@
+/* CSS for Menu page */
+
+.menu-header-bg {
+  background-image: url("../images/menu-header-bg.jpg");
+}
+
+.menu-header-content {
+  text-align: center;
+  max-height: 85vh;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.menu-header-content p {
+  font-size: 20px;
+}
+
+.menu-book-table-section {
+  text-align: center;
+  display: grid;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+
+.sec-col-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem 2rem;
+  margin: 0;
+  width: max-content;
+  text-decoration: none;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sec-col-btn:hover {
+  background-color: var(--tertiary-color);
+}
+
+.menu-food-icon-div {
+  display: grid;
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 30px 40px;
+}
+
+.menu-food-icon-div:hover {
+  background-color: var(--tertiary-color);
+}
+
+.menu-food-icon-div h5 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.menu-food-icon-div p {
+  margin-top: 0;
+}
+
+.item-icon-grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.menu-price-circle {
+  background-color: var(--yellow-color);
+  border-radius: 200px;
+  color: black;
+  padding: 10px;
+  font-size: 30px;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  align-content: center;
+}
+
+.menu-price-circle p {
+  font-family: var(--oregano);
+  margin: 0px;
+  padding: 0px;
+}
+
+.oregano-font {
+  font-family: var(--oregano);
+  font-size: 20px;
+}
+
+.menu-starter-section-bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../images/menu-bg-starter.jpg");
+}
+
+.menu-category-bg-style {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
+  text-align: center;
+  background-size: cover;
+}
+
+.menu-category-section {
+  margin-top: 5rem;
+}
+
+.hp-menu-list-section {
+  margin-top: 3rem;
+}
+
+.menu-meat-section-bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../images/menu-bg-meat.jpg");
+}
+
+.item-icon-grid a{
+  display: grid;
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  align-content: stretch;
+}
+
+/* Tablet layout css */
+
+@media screen and (min-width: 768px) {
+  .menu-book-table-section {
+    grid-template-columns: 2fr 1fr;
+  }
+  .menu-book-table-section:first-child {
+    text-align: left;
+  }
+  .menu-book-table-section div:nth-child(2) {
+    position: relative;
+  }
+  .menu-book-table-btn {
+    position: absolute;
+    margin-top: 1.7rem;
+    display: block;
+    right: 0px;
+  }
+  .item-icon-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fa-3x {
+    font-size: 3rem;
+  }
+  .menu-category-bg-style{
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+    align-content: end;
+  }
+  .menu-category-bg-style div:nth-child(1){
+    text-align: left;
+  }
+  .menu-category-bg-style div{
+    align-self: end;
+  }
+  .menu-price-circle{
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+  }
+}

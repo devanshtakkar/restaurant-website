@@ -1,0 +1,168 @@
+.contact-header-bg {
+  background-image: url("../images/contact-header-bg.jpg");
+  background-size: cover;
+}
+.contact-header-content {
+  text-align: center;
+  max-height: 85vh;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.contact-header-content p {
+  font-size: 20px;
+}
+
+.contact-info-div {
+  background-color: rgb(36, 42, 36);
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  display: grid;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact-icon-circle {
+  background-color: var(--yellow-color);
+  border-radius: 200px;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center !important;
+  margin: 0 auto;
+}
+
+.contact-icon-circle i {
+  display: block;
+  margin-left: 0.7rem !important;
+}
+
+.contact-info-div h5 {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info-div p {
+  margin: 0px;
+}
+
+.contact-info-div a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.contact-form-div {
+  text-align: center;
+  display: grid;
+}
+
+.contact-form-input {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 0px;
+  background-color: #ffffff0d;
+  /* appearance: none; */
+  border: 0px;
+  color: white;
+  margin: 0.5rem 0px;
+}
+
+.contact-form-input:focus {
+  background-color: var(--primary-color);
+}
+.input-select {
+  display: block;
+  padding-inline-end: 0px;
+}
+.contact-form-input option {
+  color: black;
+  width: 100%;
+}
+
+.sec-col-btn {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  margin: 0;
+  width: max-content;
+  text-decoration: none;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: 500;
+  border: 0px;
+  margin: 1rem;
+  margin-left: 0;
+  color: white;
+}
+
+.sec-col-btn:hover {
+  background-color: var(--tertiary-color);
+  border: 0px;
+}
+
+.contact-offer-btn {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--body-font);
+  padding: 1rem;
+  background-color: white;
+  max-width: fit-content;
+  display: block;
+  justify-self: center;
+}
+
+.contact-offer-btn:hover {
+  background-color: rgb(24, 28, 24);
+  color: white;
+}
+
+.contact-offer {
+  display: grid;
+  /* height: 8rem; */
+  margin-bottom: 4rem;
+}
+.offer-img {
+  background-image: url("../images/contact-burger.jpg");
+  height: 17rem;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  .contact-form-div {
+    padding-top: 2rem;
+  }
+  .sec-col-btn {
+    text-align: left;
+    justify-self: start;
+  }
+  form {
+    display: grid;
+  }
+
+  .contact-offer {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    align-content: stretch;
+  }
+  .offer-img {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .contact-offer-btn{
+    justify-self: start;
+  }
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../content/images/logo.jpg" />
+    <title>Contact</title>
+    <script
+      src="https://kit.fontawesome.com/6bced2046d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../content/js/script.js" defer></script>
+    <link rel="stylesheet" href="../content/css/style.css" />
+    <link rel="stylesheet" href="../content/css/contact.css" />
+  </head>
+  <body>
+    <header class="contact-header-bg">
+      <nav id="desktop-nav-bar" class="max-width-wrapper">
+        <a href="../index.html">
+          <div class="nav-logo-and-title">
+            <img
+              src="../content/images/logo.jpg"
+              width="45"
+              height="45"
+              alt="site logo"
+            />
+            <p class="nav-title">Restaurant</p>
+          </div>
+        </a>
+        <div>
+          <ul class="desktop-nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="references.html">References</a></li>
+          </ul>
+        </div>
+        <a href="tel:6725585944" class="nav-phone-num">
+          <p>(672) 558-5944</p>
+        </a>
+      </nav>
+      <nav id="mobile-nav-bar">
+        <a href="../index.html">
+          <div class="nav-logo-and-title">
+            <img
+              src="../content/images/logo.jpg"
+              width="45"
+              height="45"
+              alt="site logo"
+            />
+            <p class="nav-title">Restaurant</p>
+          </div>
+        </a>
+        <div id="modal-open-btn">
+          <img
+            src="../content/images/Hamburger_icon.svg.png"
+            width="35"
+            alt="menu icon"
+            class="hamburger-menu"
+          />
+        </div>
+      </nav>
+      <div class="nav-modal" id="nav-modal">
+        <button id="close-menu-button">
+          <i class="fa-solid fa-xmark"></i> Close
+        </button>
+        <ul class="nav-modal-items">
+          <li>
+            <img src="../content/images/logo.jpg" alt="logo" width="45" />
+            <p class="nav-modal-brand">Restaurant</p>
+          </li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="references.html">References</a></li>
+          <li class="nav-modal-icons">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+            <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
+          </li>
+          <li>
+            <div class="nav-phone-num">
+              <p>(672) 558-5944</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-header-content max-width-wrapper">
+        <h1>Contact</h1>
+        <p>
+          We would love to hear from you! Contact us with any questions,
+          concerns, or feedback you may have about our restaurant.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="max-width-wrapper contact-info-section">
+        <div class="contact-info-div">
+          <div>
+            <div class="contact-icon-circle">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            </div>
+            <h5>Physical Address</h5>
+            <p>304 North Cardinal St.</p>
+            <p>Somewhere, ON Earth 02124</p>
+          </div>
+          <div>
+            <div class="contact-icon-circle">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            </div>
+            <h5>Phone Numbers</h5>
+            <p>
+              <a href="tel:6725585944">(672) 558-5944</a>
+            </p>
+            <p>
+              <a href="tel:18001232345">1-800-123-4567</a>
+            </p>
+          </div>
+          <div>
+            <div class="contact-icon-circle">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </div>
+            <h5>Email</h5>
+            <p>
+              <a href="mailto:dtakkar00@mylangara.ca">dtakkar00@mylangara.ca</a>
+            </p>
+            <p>
+              <a href="mailto:devansh@takkar.ooo">devansh@takkar.ooo</a>
+            </p>
+          </div>
+        </div>
+        <div class="contact-form-div">
+          <h2>Book a table online</h2>
+          <p>
+            Use the form below to request a reservation at our restaurant. We'll
+            confirm your booking as soon as possible.
+          </p>
+          <form>
+            <input
+              name="Name"
+              placeholder="Name"
+              type="text"
+              class="contact-form-input"
+            />
+            <input
+              type="datetime-local"
+              name="Time"
+              class="contact-form-input"
+            />
+            <select class="input-select contact-form-input">
+              <option
+                value=""
+                class="placeholder"
+                disabled=""
+                selected="selected"
+              >
+                Persons
+              </option>
+              <option value="2">2</option>
+              <option value="2-4">2-4</option>
+              <option value="4-6">4-6</option>
+              <option value="6-8">6-8</option>
+              <option value="8-10">8-10</option>
+            </select>
+            <input
+              name="phone"
+              type="number"
+              max="99999999999"
+              min="999999999"
+              placeholder="Phone"
+              class="contact-form-input"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              class="contact-form-input"
+            />
+            <input type="submit" class="sec-col-btn" value="Submit" />
+          </form>
+        </div>
+      </section>
+      <section class="max-width-wrapper contact-offer">
+        <div class="offer-img"></div>
+        <div class="secondary-col-block">
+          <p>VALID UNTILL 25 MAY 2022</p>
+          <h2>Buy 1 Get 1 Free</h2>
+          <p>
+            Get ready to sink your teeth into twice the juicy goodness with our
+            irresistible offer - buy one mouthwatering burger and get a second
+            one absolutely free!
+          </p>
+          <a class="contact-offer-btn" href=""> Grab Vaucher </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper max-width-wrapper">
+        <div class="ft-first-div">
+          <img src="../content/images/logo.jpg" alt="logo" width="70" />
+          <p class="footer-title">Restaurant</p>
+          <p>
+            At our restaurant, we believe that dining is more than just eating.
+            It's about savoring each moment and creating memories with friends
+            and loved ones.
+          </p>
+        </div>
+        <div>
+          <p>Opening Hours</p>
+          <p>Mon - Sun / 12 am - 12pm</p>
+        </div>
+        <div>
+          <p>Phone: (672) 324-7023</p>
+          <a href="mailto:dtakkar00@mylangara.ca">dtakkar00@mylangara.ca</a>
+        </div>
+        <div>
+          <p>304 North Cardinal St.</p>
+          <p>Somewhere, ON Earth 02124</p>
+        </div>
+        <div>
+          <p>
+            This websites's design inspiration was taken from a wordpress's
+            starter theme template Blocksy make by creativethemes.
+            <a href="https://demo.creativethemes.com/blocksy/restaurant/"
+              >Link to source</a
+            >
+          </p>
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright © 2023 - Devansh Takkar for CPSC 1030</p>
+        </div>
+        <div class="footer-icons">
+          <a href="">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

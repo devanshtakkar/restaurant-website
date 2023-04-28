@@ -1,0 +1,47 @@
+.ref-header-bg{
+    background-image: url("../images/ref-header.jpg");
+    background-size: cover;
+}
+.ref-header-content {
+  text-align: center;
+  max-height: 85vh;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+td, th{
+    padding: 0.5rem;
+}
+
+thead th{
+    border:solid 1px var(--tertiary-color) ;
+    text-align: left;
+    font-family: var(--body-font);
+}
+
+a{
+    font-family: var(--body-font);
+}
+
+tr:nth-child(even){
+    background-color: var(--secondary-color);
+
+}
+
+tr:nth-child(even) a:hover{
+    color: rgb(18, 18, 0);
+}
+
+a:hover{
+    color: white;
+}
